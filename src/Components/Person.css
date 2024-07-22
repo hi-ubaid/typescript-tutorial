@@ -1,0 +1,32 @@
+.Person {
+    /* Add some margin and padding to the person component */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .Person h1 {
+    /* Style the h1 elements inside the Person component */
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+  }
+  
+  .Person h1:nth-child(2) {
+    /* Style the email h1 element specifically */
+    color: #337ab7; /* Blue text for email */
+  }
+  
+  .Person h1:nth-child(4) {
+    /* Style the isDeveloper h1 element specifically */
+    font-size: 18px;
+    color: #666; /* Gray text for isDeveloper */
+  }
+  
+  .Person h1:nth-child(5) {
+    /* Style the hobbies h1 element specifically */
+    font-size: 16px;
+    color: #999; /* Light gray text for hobbies */
+  }
