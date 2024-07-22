@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import { Person } from './Components/Person';
+import { Person, Continent } from './Components/Person';
 
 function App() {
+
   return (
     <div className="App">
       <Person
@@ -11,6 +12,7 @@ function App() {
         age={21}
         isDeveloper={true}
         hobbies={["Watching Cricket", "Playing Mobile Games", "Scrolling Instagram"]}
+        Continent={Continent.Asia}
       />
     </div>
   );
